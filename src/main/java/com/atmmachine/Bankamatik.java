@@ -70,8 +70,7 @@ public class Bankamatik {
         System.out.println("Lütfen yapmak istediğiniz işlemi seçiniz \n" + "Para yatırmak için 1 e basınız \n" + "Para çekmek için 2 ye basınız");
         int secim = input.nextInt();
         paraIslemleri.paraIslemleriYap(secim,müsteriMap,müsteriNo);
-
-        System.out.println("Yeni bir işlem yapmak istiyorsanız 1 e basınız. \n " + "Çıkmak için 2 ye basınız.");
+        
 
     }
 
